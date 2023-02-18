@@ -15,7 +15,7 @@ $(document).ready(function() {
     // Send the form data using AJAX
     $.ajax({
       type: "POST",
-      url: "registration.php",
+      url: "regfunction.php",
       data: JSON.stringify(formData),
       success: function(response) {
         // Handle the successful form submission
