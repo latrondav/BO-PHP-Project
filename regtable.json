@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bodb"},
+{"type":"table","name":"regtable","database":"bodb","data":
+[
+{"studentID":"1900702573","firstName":"LATIM","lastName":"RONNIE DAVID","email":"latrondav@gmail.com","timeSlot":"10:00 - 12:00","registrationTime":"2023-02-19 17:04:10"},
+{"studentID":"1900702576","firstName":"LATIM","lastName":"DAVID","email":"latrondav20201@outlook.com","timeSlot":"19:00 - 21:00","registrationTime":"2023-02-19 17:04:48"},
+{"studentID":"1900702572","firstName":"LATIM","lastName":"RONNIE DAVID","email":"latrondav@gmail.com","timeSlot":"13:00 - 15:00","registrationTime":"2023-02-19 17:26:47"},
+{"studentID":"19007025712","firstName":"LATIM","lastName":"DAVID","email":"latrondav20201@outlook.com","timeSlot":"16:00 - 18:00","registrationTime":"2023-02-19 17:27:20"},
+{"studentID":"1900702574","firstName":"LATIM","lastName":"RONNIE DAVID","email":"latrondav@gmail.com","timeSlot":"19:00 - 21:00","registrationTime":"2023-02-19 17:28:27"}
+]
+}
+]
