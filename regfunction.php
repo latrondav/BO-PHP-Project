@@ -34,12 +34,18 @@
 
         $message = "Registration successful";
         $cssClass = "success";
+
+        // Redirect back to regsuccess.php with the message and CSS class as URL parameters
+        header("Location: regsuccess.php?message=$message&class=$cssClass");
     } else {
         $message = "Registration failed";
         $cssClass = "error";
+
+        // Redirect back to regpage.php with the message and CSS class as URL parameters
+        header("Location: regpage.php?message=$message&class=$cssClass");
     }
     // Redirect back to regpage.php with the message and CSS class as URL parameters
-    header("Location: regpage.php?message=$message&class=$cssClass");
+    // header("Location: regpage.php?message=$message&class=$cssClass");
     exit;
 
 ?>
